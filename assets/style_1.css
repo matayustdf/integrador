@@ -17,6 +17,50 @@
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   position: fixed;
 }
+.nav__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: #3c6e71;
+  font-weight: 800;
+}
+
+.btns {
+  font-size: 15px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 5px;
+}
+
+.log a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.reg a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btns:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.btns:active {
+  transform: translate(0em, 0.2em);
+}
 
 .name__nombre {
   display: flex;
@@ -44,18 +88,6 @@
   width: 500px;
   background-color: rgba(255, 255, 255, 0.514);
 }
-.nav__list {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-}
-
-.nav__bar a {
-  text-decoration: none;
-  color: #3c6e71;
-  font-weight: 800;
-}
-
 .img__logo {
   height: 50px;
   width: auto;

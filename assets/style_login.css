@@ -8,15 +8,26 @@
 }
 
 .login__container {
+  background-image: url(./backg/fondo.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
   width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.544);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
+.login__titulo {
   text-align: center;
   margin-bottom: 20px;
 }

@@ -146,3 +146,30 @@
   flex-direction: column;
   padding-top: 15px;
 }
+/* footer */
+.footer {
+  text-align: center;
+  background-color: #3c6e71;
+  color: white;
+  padding: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}

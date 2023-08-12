@@ -7,6 +7,8 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* ==================== navigation bar ===================== */
+
 .nav__bar {
   display: flex;
   align-items: center;
@@ -72,6 +74,18 @@
   font-size: small;
   font-weight: 300;
 }
+
+/* ==================== menu hambburgueza ===================== */
+
+.nav__bar i {
+  font-size: 25px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+/* ==================== contenido principal ===================== */
 
 .logo__container {
   background-image: url(./backg/fondo.jpeg);
@@ -146,7 +160,7 @@
   flex-direction: column;
   padding-top: 15px;
 }
-/* footer */
+/* ==================== contenido contenido del footer ===================== */
 .footer {
   text-align: center;
   background-color: #3c6e71;
